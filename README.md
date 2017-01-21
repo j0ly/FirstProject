@@ -17,7 +17,7 @@ Here are the installation instructions (just an example, other kind of LAMP envi
 8)	Start the Virtual Machine.
 
 
-The Debian installation:
+Debian installation:
 
 1)	Inside the virtual machine, choose “Install” when Debian is started.
 2)	Select your language, location, locales and keyboard.
@@ -30,7 +30,7 @@ The Debian installation:
 9)	Finish the installation. 
 
 
-The Project installation:
+Project installation:
 
 1)	Log in as root when the virtual machine has rebooted.
 2)	Run “ifconfig” to see the IP-number of the virtual machine (eth0, inet addr: xxx).
