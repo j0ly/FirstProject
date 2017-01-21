@@ -6,7 +6,9 @@ A web application that has at least five different flaws from the OWASP top ten 
 
 This project is done with PHP in a LAMP environment. 
 Here are the installation instructions (just an example, other kind of LAMP environment will probably work too);
+
 1)	Download and install VirtualBox; https://www.virtualbox.org/wiki/Downloads
+
 2)	Download the “64 bit PC netinst.iso” Debian image from here; https://www.debian.org/distrib/
 3)	Start Virtualbox and select “Machine / New…” from the menu.
 4)	Give the new virtual machine a name and select “Linux” as Type, and “Debian (64-bit)” as Version. Continue and accept the default settings until finished.
