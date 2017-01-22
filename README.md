@@ -5,7 +5,7 @@ Cyber Security Base - Course Project I
 The task was to create a web application that has at least five different flaws from the OWASP top ten list! 
 
 This project is done with PHP in a LAMP environment. 
-Here are the installation instructions (just an example, other kind of LAMP environment will probably work too);
+Here are the installation instructions (just an example, other kind of LAMP environment will most likely work too);
 
 1)	Download and install VirtualBox; https://www.virtualbox.org/wiki/Downloads
 2)	Download the “64 bit PC netinst.iso” Debian image from here; https://www.debian.org/distrib/
