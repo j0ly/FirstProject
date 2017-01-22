@@ -49,7 +49,7 @@ Project installation:
 
 ### How to use:
 
-* Open http://yourserver/firstproject/ in a browser, from the host (yourserver = the IP from step 2 above).
+* Open http://yourserver/firstproject/ in a browser, from the host.
 * Sign-Up some imagenary persons to the event, using imagenary credit-card numbers (no checking is done).
 * Take note of the ticket-number if you want to test cancelling the Sign-Up.
 * On the Admin page you can get a list of the people who have Signed-Up.
