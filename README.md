@@ -57,6 +57,8 @@ Project installation:
   * The credentials are: admin/password
  
 -----
+#### How to activate SSL:
+* https://debian-administration.org/article/349/Setting_up_an_SSL_server_with_Apache2
  
 #### For general instructions on how to improve software security, see:
 * https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
