@@ -44,18 +44,21 @@ When the admin logs in and takes a look at the sign-ups, his session-id should b
 But you can also test with code like this, in any of the fields on the SignUp page; 
 ```<body onload=alert('hello')>```
 
-### How to fix:  
+### How to fix
 Html codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
 
 ## A6
 Credit card numbers are sent without SSL in cleartext with POST, and stored unencrypted in the database. And, the session cookie and the admin credentials can be stolen since SSL is not in use (see A2).
 
-How: Capture the (imaginary) credit card numbers using OWASP ZAP.
+### How to identify
+Capture the (imaginary) credit card numbers using OWASP ZAP.
 
-Fix: Again, use SSL! 
+### How to fix: 
+Again, use SSL! 
 
-But there are many requirements when handling credit card data, see https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard
+But there are many requirements when handling credit card data, see https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard<br>
 Regarding the session cookie and admin credentials, see the A2-fix.
+
 ## A7
 The database credentials are stored in an easy to guess plaintext config file, inside the web-root, and is lacking access control.
 How: Modify “yourserver” in this link to match your installation;  http://yourserver/firstproject/admin/config.ini. Then open this link with your browser, and you should see the credentials.
