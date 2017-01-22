@@ -19,23 +19,23 @@ Here are the installation instructions (just an example, other kind of LAMP envi
 
 Debian installation:
 
-1)	Inside the virtual machine, choose “Install” when Debian is started.
-2)	Select your language, location, locales and keyboard.
-3)	Enter hostname, domain name, root password and your personal user credentials, of your own choosing. 
-4)	Partition the disk using the “Guided – use entire disk” alternative. Continue with the default values and suggestions, until you receive the “Write the changes to disk?” prompt. Then choose “Yes”!
-5)	When configuring the package manager, choose the default values, and leave the proxy setting empty (unless you know that it’s needed).
-6)	No need to participate in the package usage survey.
-7)	Software to install: select “web server”, “SSH server” and “standard system utilities” a “desktop environment” and the “print server” is not needed)
-8)	Install the GRUB boot loader on the master boot record, and choose “/dev/sda” in the next window.
-9)	Finish the installation. 
+1.	Inside the virtual machine, choose “Install” when Debian is started.
+2.	Select your language, location, locales and keyboard.
+3.	Enter hostname, domain name, root password and your personal user credentials, of your own choosing. 
+4.	Partition the disk using the “Guided – use entire disk” alternative. Continue with the default values and suggestions, until you receive the “Write the changes to disk?” prompt. Then choose “Yes”!
+5.	When configuring the package manager, choose the default values, and leave the proxy setting empty (unless you know that it’s needed).
+6.	No need to participate in the package usage survey.
+7.	Software to install: select “web server”, “SSH server” and “standard system utilities” a “desktop environment” and the “print server” is not needed)
+8.	Install the GRUB boot loader on the master boot record, and choose “/dev/sda” in the next window.
+9.	Finish the installation. 
 
 
 Project installation:
 
-1)	Log in as root when the virtual machine has rebooted.
-2)	Run “ifconfig” to see the IP-number of the virtual machine (eth0, inet addr: xxx).
-3)	When you open that IP-address in a browser on the host you should now see the “Apache2 Debian Default Page”.
-4)	Run the following commands inside the virtual machine:
+1.	Log in as root when the virtual machine has rebooted.
+2.	Run “ifconfig” to see the IP-number of the virtual machine (eth0, inet addr: xxx).
+3.	When you open that IP-address in a browser on the host you should now see the “Apache2 Debian Default Page”.
+4.	Run the following commands inside the virtual machine:
 aptitude update && aptitude upgrade
 aptitude install mysql-server mysql-client (enter a root password for MySQL)
 aptitude install php5 php5-mysql libapache2-mod-php5
@@ -45,7 +45,7 @@ git init
 git clone https://github.com/j0ly/firstproject.git
 nano admin/config.ini (change the password to match your MySQL root password)
 reboot
-5)	Open http://yourserver/firstproject/admin/createdb.php in the browser to create the database (yourserver = the IP from step 2).
+5.	Open http://yourserver/firstproject/admin/createdb.php in the browser to create the database (yourserver = the IP from step 2).
 
 
 
