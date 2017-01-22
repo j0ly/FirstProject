@@ -58,5 +58,7 @@ Project installation:
 
 #### For general instructions on how to improve software security, see:
 * https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
+Regarding credit cards, there are many rules:
+* https://www.pcisecuritystandards.org/pci_security/how
 
 
