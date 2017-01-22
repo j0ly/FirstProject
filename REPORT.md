@@ -28,7 +28,7 @@ You can get access to the Admin page using the stolen cookie-session-id like thi
 Note: You can use OWASP ZAP together with another browser, to capture the cookie-session-id, when logging in.
 
 ### How to fix
-Use SSL for the website (see the GitHub Readme)! 
+Use SSL for the website (see the link in Readme for details)! 
 
 Besides that, the session could be re-generated and the old one destroyed with some intervals. And the session could be made to timeout sooner.  The “secure” and “path” parameters could be used for the session cookie (+ httponly to defend against A3).<br>
 The admin credentials could be stored in the database with the password salted + hashed. The admin should be able to change (at least) the password. 
