@@ -13,17 +13,20 @@ The OWASP vulnerabilities:
 
 **How to fix:** The “mysqli_real_escape_string” function can be used in “delete.php” on the $ticket variable, to prevent the SQL-injection (as used in “done.php” on other variables). But a simple input validation (fixed length + lowcase alfanum only) would also fix the problem in this case.
 ## A2
-a) Guessable fixed admin credentials (admin/password), which are stored in the source code (login.php) with no encryption. 
+a) Guessable fixed admin credentials (admin/password), which are stored in the source code (login.php) with no encryption.<br> 
 b) The cookie-session-id and the clear text admin credentials are sent over an unencrypted connection. You can see them with OWASP ZAP.
-How (broken session management): You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” Firefox add-on): 
-1) Go to the Admin login-page with Firefox (but don’t log in, - if you are not asked for the credentials then close the browser and try again). 
-2) Open “Advanced Cookie Manager” and enter the cookie-session-id you saw with OWASP ZAP into the "Value" box, replacing the existing one (delete first, then paste). Save the change.
-3) Re-enter the Admin page (do not only reload), and you’re in without entering credentials!
-Note: You can use OWASP ZAP together with another browser, to capture the cookie-session-id, when logging in.
-Fix: Use SSL for the website (see the GitHub Readme)! 
 
-Besides that, the session could be re-generated and the old one destroyed with some intervals. And the session could be made to timeout sooner.  The “secure” and “path” parameters could be used for the session cookie (+ httponly to defend against A3).
+**How to identify (broken session management):** You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” Firefox add-on): 
+1. Go to the Admin login-page with Firefox (but don’t log in, - if you are not asked for the credentials then close the browser and try again). 
+2. Open “Advanced Cookie Manager” and enter the cookie-session-id you saw with OWASP ZAP into the "Value" box, replacing the existing one (delete first, then paste). Save the change.
+3. Re-enter the Admin page (do not only reload), and you’re in without entering credentials!
+Note: You can use OWASP ZAP together with another browser, to capture the cookie-session-id, when logging in.
+
+**How to fix:** Use SSL for the website (see the GitHub Readme)! 
+
+Besides that, the session could be re-generated and the old one destroyed with some intervals. And the session could be made to timeout sooner.  The “secure” and “path” parameters could be used for the session cookie (+ httponly to defend against A3).<br>
 The admin credentials could be stored in the database with the password salted + hashed. The admin should be able to change (at least) the password. 
+
 ## A3
 There are both Stored and Reflected XSS vulnerabilities. The Stored XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
 How (stored XSS): Enter this code into the address field on the SignUp page;
