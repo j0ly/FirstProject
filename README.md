@@ -58,7 +58,7 @@ Project installation:
  
 -----
 ### Fixes
-#### How to activate SSL:
+#### Activate SSL:
 * https://debian-administration.org/article/349/Setting_up_an_SSL_server_with_Apache2
  
 #### For general instructions on how to improve software security, see:
