@@ -20,7 +20,7 @@ Here are the installation instructions (just an example, other kind of LAMP envi
 
 Debian installation:
 
-1.	Inside the virtual machine, choose “Install” when Debian has started.
+1.	Inside the virtual machine, select “Install” when Debian has started.
 2.	Select your language, location, locales and keyboard.
 3.	Enter hostname, domain name, root password and your personal user credentials of your own choosing. 
 4.	Partition the disk using the “Guided – use entire disk” alternative. Continue with the default values and suggestions, until you receive the “Write the changes to disk?” prompt. Then choose “Yes”!
