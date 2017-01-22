@@ -1,7 +1,7 @@
-This project is done with PHP in a LAMP environment. 
+This project is done with PHP in a LAMP environment.<br> 
 See https://github.com/j0ly/firstproject/blob/master/README.md for installation instructions.
 
-There are many problems with the code, but I will only mention the most relevant problems and the most important fixes (as I saw them) for each OWASP vulnerability, without going into details. Had to draw a line somewhere, otherwise I could have ended up spending so much time with this (and the assignment didn’t say how specific we needed to be about the fixes). 
+There are many problems with the code, but I will only mention the most relevant problems and the most important fixes (as I see them) for each OWASP vulnerability, without going into details. Had to draw a line somewhere, otherwise I could have ended up spending so much time with this (and the assignment didn’t say how specific we needed to be about the fixes). 
 
 The OWASP vulnerabilities:
 
