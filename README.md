@@ -55,7 +55,9 @@ Project installation:
 * Take note of the ticket-number if you want to test cancelling the sign-up.
 * On the Admin page you can get a list of the people who have signed-up.
   * The credentials are: admin/password
-
+ 
+-----
+ 
 #### For general instructions on how to improve software security, see:
 * https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
 
