@@ -68,5 +68,5 @@ Project installation:
 * https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard
 * https://www.pcisecuritystandards.org/pci_security/how
 
-#### PHP security considerations in shared environment:
+#### PHP security considerations in shared hosting environment:
 * http://www.hostreview.com/blog/Technical_Support/articles/PHPSecurityinSharedEnvironment.html
