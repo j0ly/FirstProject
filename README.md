@@ -42,8 +42,8 @@ Project installation:
    * git init
    * git clone https://github.com/j0ly/firstproject.git
    * nano admin/config.ini (change the password to match your MySQL root password)
-   * reboot
-4.	Open http://yourserver/firstproject/admin/createdb.php in the browser to create the database (yourserver = the IP from step 2).
+   * reboot	
+4.  Open http://yourserver/firstproject/admin/createdb.php in the browser to create the database (yourserver = the IP from step 2).
 
 
 
