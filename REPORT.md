@@ -1,3 +1,5 @@
+# The Report
+
 This project is done with PHP in a LAMP environment.<br> 
 See https://github.com/j0ly/firstproject/blob/master/README.md for installation instructions.
 
