@@ -36,13 +36,13 @@ Project installation:
 1.	Log in as root when the virtual machine has rebooted.
 2.	Run “ifconfig” to see the IP-number of the virtual machine (eth0, inet addr: x.x.x.x).
 3.	Run the following commands inside the virtual machine:
-   * aptitude install mysql-server mysql-client (enter a root password for MySQL)
+   * aptitude install mysql-server mysql-client - enter a root password for MySQL!
    * aptitude install php5 php5-mysql libapache2-mod-php5
    * aptitude install git
    * cd /var/www/html/
    * git init
    * git clone https://github.com/j0ly/firstproject.git
-   * nano firstproject/admin/config.ini (change the password to match your MySQL root password)
+   * nano firstproject/admin/config.ini - change the password to match your MySQL root password!
    * reboot	
 4.  Open http://yourserver/firstproject/admin/createdb.php in the browser, from the host*, to create the database (yourserver = the IP from step 2).
 
