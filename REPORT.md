@@ -18,7 +18,8 @@ The “mysqli_real_escape_string” function can be used in “delete.php” on 
 a) Guessable fixed admin credentials (admin/password), which are stored in the source code (login.php) with no encryption.<br> 
 b) The cookie-session-id and the clear text admin credentials are sent over an unencrypted connection. You can see them with OWASP ZAP.
 
-**How to identify (broken session management):** You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” Firefox add-on):
+### How to identify (broken session management)
+You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” Firefox add-on):
 
 1. Go to the Admin login-page with Firefox (but don’t log in, - if you are not asked for the credentials then close the browser and try again). 
 2. Open “Advanced Cookie Manager” and enter the cookie-session-id you saw with OWASP ZAP into the "Value" box, replacing the existing one (delete first, then paste). Save the change.
@@ -26,7 +27,8 @@ b) The cookie-session-id and the clear text admin credentials are sent over an u
 
 Note: You can use OWASP ZAP together with another browser, to capture the cookie-session-id, when logging in.
 
-**How to fix:** Use SSL for the website (see the GitHub Readme)! 
+### How to fix
+Use SSL for the website (see the GitHub Readme)! 
 
 Besides that, the session could be re-generated and the old one destroyed with some intervals. And the session could be made to timeout sooner.  The “secure” and “path” parameters could be used for the session cookie (+ httponly to defend against A3).<br>
 The admin credentials could be stored in the database with the password salted + hashed. The admin should be able to change (at least) the password. 
