@@ -45,6 +45,8 @@ Project installation:
    * reboot	
 4.  Open http://yourserver/firstproject/admin/createdb.php in the browser, from the host*, to create the database (yourserver = the IP from step 2).
 
+*) host = the computer/os running the VirtualBox virtual machine
+
 ### How to use:
 
 * Open http://yourserver/firstproject/ in a browser, from the host (yourserver = the IP from step 2 above).
@@ -56,4 +58,4 @@ Project installation:
 
 
 
-*) host = the computer/os running the VirtualBox virtual machine
+
