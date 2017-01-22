@@ -35,7 +35,6 @@ Project installation:
 1.	Log in as root when the virtual machine has rebooted.
 2.	Run “ifconfig” to see the IP-number of the virtual machine (eth0, inet addr: x.x.x.x).
 3.	Run the following commands inside the virtual machine:
-   * aptitude update && aptitude upgrade
    * aptitude install mysql-server mysql-client (enter a root password for MySQL)
    * aptitude install php5 php5-mysql libapache2-mod-php5
    * aptitude install git
