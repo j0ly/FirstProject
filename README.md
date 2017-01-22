@@ -69,7 +69,7 @@ Open "/etc/apache2/apache2.conf" in an editor. Find these lines;
         Require all granted
 </Directory>
 ```
-Change the “AllowOverride None” to “AllowOverride All”. Run the command “apachectl restart”.
+Change “AllowOverride None” to “AllowOverride All”. Run the “apachectl restart” command.
 
 
 -----
