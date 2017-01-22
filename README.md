@@ -57,6 +57,6 @@ Project installation:
   * The credentials are: admin/password
 
 #### For general instructions on how to improve software security, see:
-https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
+* https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
 
 
