@@ -57,6 +57,20 @@ Project installation:
   * The credentials are: admin/password
  
 -----
+To enable the .htaccess file, do this:
+
+Open "/etc/apache2/apache2.conf" in an editor. Find these lines;
+```
+<Directory /var/www/>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+</Directory>
+```
+Change the “AllowOverride None” to “AllowOverride All”. Run the command “apachectl restart”.
+
+
+-----
 ### Links
 #### How to activate SSL:
 * https://debian-administration.org/article/349/Setting_up_an_SSL_server_with_Apache2
