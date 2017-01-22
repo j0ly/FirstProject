@@ -78,18 +78,6 @@ Project installation:
 #### PHP security considerations in shared hosting environment:
 * http://www.hostreview.com/blog/Technical_Support/articles/PHPSecurityinSharedEnvironment.html
 
------
 
-To enable the .htaccess file which is in the admin folder, do this:
-
-Open "/etc/apache2/apache2.conf" in an editor. Find these lines;
-```
-<Directory /var/www/>
-        Options Indexes FollowSymLinks
-        AllowOverride None
-        Require all granted
-</Directory>
-```
-Change “AllowOverride None” to “AllowOverride All”. Run the “apachectl restart” command.
 
 
