@@ -51,7 +51,7 @@ Project installation:
 ### How to use:
 
 * Open http://yourserver/firstproject/ in a browser, from the host.
-* Sign-Up some imagenary persons to the event, using imagenary credit-card numbers (no checking is done).
+* Sign-Up some imagenary persons to the imagenary event, using imagenary credit-card numbers (no checking is done).
 * Take note of the ticket-number if you want to test cancelling the Sign-Up.
 * On the Admin page you can get a list of the people who have Signed-Up.
   * The credentials are: admin/password
