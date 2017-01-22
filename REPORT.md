@@ -61,6 +61,6 @@ Regarding the session cookie and admin credentials, see the A2-fix.
 
 ## A7
 The database credentials are stored in an easy to guess plaintext config file, inside the web-root, and is lacking access control.
-How: Modify “yourserver” in this link to match your installation;  http://yourserver/firstproject/admin/config.ini. Then open this link with your browser, and you should see the credentials.
-Fix: 
-
+### How to identify
+Modify “yourserver” in this link to match your installation; http://yourserver/firstproject/admin/config.ini. Then open this link with your browser, and you should see the credentials.
+### How to fix
