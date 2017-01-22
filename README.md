@@ -14,7 +14,7 @@ Here are the installation instructions (just an example, other kind of LAMP envi
 5.	Right click the newly created virtual machine and select “Settings…”.
 6.	From “Network”, change “Attached to” = “Bridged Adapter”. 
 7.	From “Storage”, highlight the CD under “Controller: IDE”. From “Attributes” klick the CD-image and “Choose Virtual Optical Disk File…”. Find the Debian image and attach it.
-8.	Start the Virtual Machine.
+8.	Start the virtual machine.
 
 
 Debian installation:
