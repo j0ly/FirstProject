@@ -75,4 +75,4 @@ There is actually already a .htaccess in the admin folder that should do that, b
         Require all granted
   </Directory>
   ```
-  Change the “AllowOverride None” to “AllowOverride All”. Run the command “apachectl restart”.
+  Change the “AllowOverride None” to “AllowOverride All”. Run the command “apachectl restart”, and try to open this link again; http://yourserver/firstproject/admin/config.ini
