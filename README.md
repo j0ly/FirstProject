@@ -11,21 +11,21 @@ Here are the installation instructions (just an example, other kind of LAMP envi
 2.	Download the “64 bit PC netinst.iso” Debian image from here; https://www.debian.org/distrib/
 3.	Start Virtualbox and select “Machine / New…” from the menu.
 4.	Give the new virtual machine a name and select “Linux” as Type, and “Debian (64-bit)” as Version. Continue and accept the default settings until finished.
-5.	Right click the newly created virtual machine, and select “Settings…”.
-6.	From “Network”, change “Attached to” = “Bridged Adapter”. *
-7.	From “Storage”, highlight the CD, under “Controller: IDE”. From “Attributes” klick the second CD-image and “Choose Virtual Optical Disk File…”. Find the Debian image and attach it.
+5.	Right click the newly created virtual machine and select “Settings…”.
+6.	From “Network”, change “Attached to” = “Bridged Adapter”. 
+7.	From “Storage”, highlight the CD under “Controller: IDE”. From “Attributes” klick the CD-image and “Choose Virtual Optical Disk File…”. Find the Debian image and attach it.
 8.	Start the Virtual Machine.
 
 
 Debian installation:
 
-1.	Inside the virtual machine, choose “Install” when Debian is started.
+1.	Inside the virtual machine, choose “Install” when Debian has started.
 2.	Select your language, location, locales and keyboard.
-3.	Enter hostname, domain name, root password and your personal user credentials, of your own choosing. 
+3.	Enter hostname, domain name, root password and your personal user credentials of your own choosing. 
 4.	Partition the disk using the “Guided – use entire disk” alternative. Continue with the default values and suggestions, until you receive the “Write the changes to disk?” prompt. Then choose “Yes”!
-5.	When configuring the package manager, choose the default values, and leave the proxy setting empty (unless you know that it’s needed).
+5.	When configuring the package manager, choose the default values, and leave the proxy setting empty (unless you know it’s needed).
 6.	No need to participate in the package usage survey.
-7.	Software to install: select “web server”, “SSH server” and “standard system utilities” a “desktop environment” and the “print server” is not needed)
+7.	Software to install: select “web server” and “standard system utilities” (nothing more is needed).
 8.	Install the GRUB boot loader on the master boot record, and choose “/dev/sda” in the next window.
 9.	Finish the installation. 
 
@@ -33,7 +33,7 @@ Debian installation:
 Project installation:
 
 1.	Log in as root when the virtual machine has rebooted.
-2.	Run “ifconfig” to see the IP-number of the virtual machine (eth0, inet addr: xxx).
+2.	Run “ifconfig” to see the IP-number of the virtual machine (eth0, inet addr: x.x.x.x).
 3.	When you open that IP-address in a browser on the host you should now see the “Apache2 Debian Default Page”.
 4.	Run the following commands inside the virtual machine:
    * aptitude update && aptitude upgrade
@@ -49,4 +49,4 @@ Project installation:
 
 
 
-*) Important when connecting from the host, and running the OWASP ZAP there!
+
