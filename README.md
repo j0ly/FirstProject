@@ -3,6 +3,7 @@
 Cyber Security Base - Course Project I
 
 The task was to create a web application that has at least five different flaws from the OWASP top ten list.
+So be aware, this is simple and bad code with many vulnerabilities!
 
 This project is done with PHP in a LAMP environment. 
 Here are the installation instructions (just an example, other kind of LAMP environment using Apache, PHP and MySQL will most likely work too);
