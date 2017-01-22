@@ -68,5 +68,8 @@ Project installation:
 * https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard
 * https://www.pcisecuritystandards.org/pci_security/how
 
+#### OWASP PHP Security Cheat Sheet: 
+* https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet
+
 #### PHP security considerations in shared hosting environment:
 * http://www.hostreview.com/blog/Technical_Support/articles/PHPSecurityinSharedEnvironment.html
