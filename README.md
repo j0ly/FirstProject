@@ -71,5 +71,8 @@ Project installation:
 #### OWASP PHP Security Cheat Sheet: 
 * https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet
 
+#### PSP security manual:
+* http://php.net/manual/en/security.php
+
 #### PHP security considerations in shared hosting environment:
 * http://www.hostreview.com/blog/Technical_Support/articles/PHPSecurityinSharedEnvironment.html
