@@ -62,6 +62,7 @@ Project installation:
 * https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
 
 ##### Regarding credit cards, there are many requirements:
+* https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard
 * https://www.pcisecuritystandards.org/pci_security/how
 
 
