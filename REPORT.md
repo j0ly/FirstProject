@@ -45,7 +45,7 @@ But you can also test with code like this, in any of the fields on the SignUp pa
 ```<body onload=alert('hello')>```
 
 ### How to fix
-Html codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
+HTML codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
 
 ## A6
 Credit card numbers are sent without SSL in cleartext with POST, and stored unencrypted in the database. And, the session cookie and the admin credentials can be stolen since SSL is not in use (see A2).
