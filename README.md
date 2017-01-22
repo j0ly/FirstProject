@@ -50,4 +50,6 @@ Project installation:
 * Open http://yourserver/firstproject/ in a browser, from the host (yourserver = the IP from step 2 above)
 
 
+
+
 *) host = the computer/os running the VirtualBox virtual machine
