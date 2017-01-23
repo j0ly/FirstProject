@@ -55,7 +55,7 @@ Credit card numbers are sent without SSL in cleartext with POST, and stored unen
 Capture the (imaginary) credit card numbers using OWASP ZAP.
 
 ### How to fix: 
-Again, use SSL! 
+Again, use SSL (see the link in Readme for details)! 
 
 But there are many requirements when handling credit card data, see https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard<br>
 Regarding the session cookie and admin credentials, see the A2-fix.
