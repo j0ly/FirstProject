@@ -17,7 +17,7 @@ The “mysqli_real_escape_string” function can be used in “delete.php” on 
 ## A2-Broken Authentication and Session Management
 The cookie-session-id and the clear text admin credentials are sent over an unencrypted connection.<br>
 
-### How to identify (broken session management)
+### How to identify
 You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” Firefox add-on):
 
 1. Capture the cookie-session-id with OWASP ZAP. 
@@ -30,8 +30,8 @@ Note: You can use OWASP ZAP together with another browser, to capture the cookie
 ### How to fix
 Use SSL for the website (see the link in Readme for details)! 
 
-## A3
-There are both Stored and Reflected XSS vulnerabilities. The Stored XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
+## A3-Cross-Site Scripting (XSS)
+There is a Stored XSS vulnerability. The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
 ### How to identify (stored XSS)
 Enter this code into the address field on the SignUp page;
 
