@@ -60,7 +60,7 @@ Project installation:
 -----
 ### Links
 
-#### Advanced Cookie Manager for Firefox:
+#### Advanced Cookie Manager, for Firefox:
 https://addons.mozilla.org/en-US/firefox/addon/cookie-manager/
 
 #### How to activate SSL:
