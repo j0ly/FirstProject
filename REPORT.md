@@ -45,7 +45,7 @@ But you can also test with code like this, in any of the fields on the SignUp pa
 HTML codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
 
 ## A6
-Credit card numbers are sent without SSL in cleartext with POST, and stored unencrypted in the database. And, the session cookie and the admin credentials can be stolen since SSL is not in use (see A2).
+Credit card numbers are sent without SSL in cleartext with POST.
 
 ### How to identify
 Capture the (imaginary) credit card numbers using OWASP ZAP.
@@ -54,7 +54,7 @@ Capture the (imaginary) credit card numbers using OWASP ZAP.
 Again, use SSL (see the link in Readme for details)! 
 
 But there are many requirements when handling credit card data, see https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard<br>
-Regarding the session cookie and admin credentials, see the A2-fix.
+
 
 ## A7
 The database credentials are stored in an easy to guess plaintext config file, inside the web-root, and is lacking access control.
