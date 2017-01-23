@@ -47,13 +47,25 @@ But you can also test with code like this, in any of the fields on the SignUp pa
 ```<body onload=alert('hello')>```
 
 ### How to fix
-In done.php there are lines like this;
+In done.php you can find these lines;
 ```
 $fname = $_POST["name"];
 $faddress = $_POST["address"];
 $creditcard = $_POST["creditcard"];
 ```
-HTML codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
+Replace them with these lines;
+```
+$fname = clean($_POST["name"]);
+$faddress = clean($_POST["address"]);
+$creditcard = clean($_POST["creditcard"]);
+
+function clean($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+```
 
 ## A6-Sensitive Data Exposure
 Credit card numbers are sent without SSL in cleartext with POST.
