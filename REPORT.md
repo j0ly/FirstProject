@@ -74,9 +74,6 @@ Capture the (imaginary) credit card numbers using OWASP ZAP.
 ### How to fix: 
 Enable SSL (see the link in Readme for details)! 
 
-But there are many requirements when handling credit card data, see https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard<br>
-
-
 ## A7-Missing Function Level Access Control
 The database credentials are stored in an easy to guess plaintext config file, inside the web-root, and is lacking access control.
 ### How to identify
