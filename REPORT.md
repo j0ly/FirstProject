@@ -44,7 +44,7 @@ But you can also test with code like this, in any of the fields on the SignUp pa
 ### How to fix
 HTML codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
 
-## A6
+## A6-Sensitive Data Exposure
 Credit card numbers are sent without SSL in cleartext with POST.
 
 ### How to identify
@@ -56,7 +56,7 @@ Again, use SSL (see the link in Readme for details)!
 But there are many requirements when handling credit card data, see https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard<br>
 
 
-## A7
+## A7-Missing Function Level Access Control
 The database credentials are stored in an easy to guess plaintext config file, inside the web-root, and is lacking access control.
 ### How to identify
 Modify “yourserver” in this link to match your installation; http://yourserver/firstproject/admin/config.ini. Then open this link with your browser, and you should see the credentials.
