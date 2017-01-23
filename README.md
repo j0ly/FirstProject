@@ -23,7 +23,7 @@ Debian installation:
 1.	Inside the virtual machine, choose “Install” when Debian has started.
 2.	Select your language, location, locales and keyboard.
 3.	Enter hostname, domain name, root password and your personal user credentials of your own choosing. 
-4.	Partition the disk using the “Guided – use entire disk” alternative. Continue with the default values and suggestions, until you receive the “Write the changes to disk?” prompt. Then choose “Yes”!
+4.	Partition the disk using the “Guided – use entire disk” alternative. Continue with the default values and suggestions, until you receive the “Write the changes to disk?” prompt. Then choose “Yes”.
 5.	When configuring the package manager, choose the default values, and leave the proxy setting empty (unless you know it’s needed).
 6.	No need to participate in the package usage survey.
 7.	Software to install: select “web server” and “standard system utilities” (nothing else is needed).
