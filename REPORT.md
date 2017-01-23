@@ -31,7 +31,7 @@ You can get access to the Admin page using the stolen cookie-session-id like thi
 Note: You can use OWASP ZAP together with another browser to capture the cookie-session-id when logging in.
 
 ### How to fix
-Use SSL for the website (see the link in Readme for details)! 
+Enable SSL for the website (see the link in Readme for details)! 
 
 ## A3-Cross-Site Scripting (XSS)
 Stored XSS vulnerability: The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
@@ -72,7 +72,7 @@ Credit card numbers are sent without SSL in cleartext with POST.
 Capture the (imaginary) credit card numbers using OWASP ZAP.
 
 ### How to fix: 
-Again, use SSL (see the link in Readme for details)! 
+Enable SSL (see the link in Readme for details)! 
 
 But there are many requirements when handling credit card data, see https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard<br>
 
