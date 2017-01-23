@@ -12,8 +12,8 @@ Here are the **installation instructions**;
 2.	Download the “64 bit PC netinst.iso” Debian image from here; https://www.debian.org/distrib/
 3.	Start Virtualbox and select “Machine / New…” from the menu.
 4.	Give the new virtual machine a name and select “Linux” as Type, and “Debian (64-bit)” as Version. Continue and accept the default settings until finished.
-5.	Right click the newly created virtual machine and select “Settings…”.
-   * From “Network”, change “Attached to” = “Bridged Adapter”. 
+5.	Right click the newly created virtual machine and select “Settings…”
+   * From “Network”, change “Attached to” = “Bridged Adapter” 
    * From “Storage”, highlight the CD under “Controller: IDE”. From “Attributes” klick the CD-image and “Choose Virtual Optical Disk File…”. Find the Debian image and attach it.
 8.	Start the virtual machine.
 
