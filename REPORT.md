@@ -20,7 +20,7 @@ Add this after line 12 in delete.php;
 ```$ticket = mysqli_real_escape_string($conn, $ticket);```
 
 ## A2-Broken Authentication and Session Management
-The cookie-session-id is sent over an unencrypted connection.
+The cookie-session-id, which is used for authentication, is sent over an unencrypted connection.
 
 ### How to identify
 You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” add-on to Firefox):
