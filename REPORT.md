@@ -13,7 +13,7 @@ The OWASP vulnerabilities:
 Sign up some users to the event. Check from the Admin page. Then go to the Cancel page and enter: ```' OR '1'='1```. All the sign-ups are now gone, as you can see from the Admin page!    
 
 ### How to fix
-The “mysqli_real_escape_string” function can be used in “delete.php” on the $ticket variable, to prevent the SQL-injection (as used in “done.php” on other variables). But a simple input validation (fixed length + lowcase alfanum only) will also fix the problem in this case.
+The “mysqli_real_escape_string” function can be used in “delete.php” on the $ticket variable, to prevent the SQL-injection (as used in “done.php” on other variables). But a simple input validation (fixed length + lowcase alfanum only) will be enough to fix the problem in this case.
 ## A2-Broken Authentication and Session Management
 The cookie-session-id and the clear text admin credentials are sent over an unencrypted connection.<br>
 
