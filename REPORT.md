@@ -3,7 +3,7 @@
 This project is done with PHP in a LAMP environment.<br> 
 See https://github.com/j0ly/firstproject/blob/master/README.md for installation instructions.
 
-There are also other problems with this code, besides these which I have mentioned and provided a fix for here below. And I'm sure there are better ways to fix these problems. But the problems I mention do get fixed, as far as I can tell. And I guess that's all that was required? 
+There are also other problems with this code, besides these which I have mentioned and provided a fix for here below. And I know there are many things that could be done to further improve the security, but I had to draw the line somewhere. And the problems I mention do get fixed (as far as I can tell). I guess that's all that was required? 
 
 The OWASP vulnerabilities:
 
