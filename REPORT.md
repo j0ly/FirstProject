@@ -14,7 +14,9 @@ Sign up some users to the event. Check from the Admin page. Then go to the Cance
 
 ### How to fix
 Add this after line 12 in delete.php;
+
 ```$_ticket = mysqli_real_escape_string($conn, $ticket);```
+
 And rename the $ticket variable two lines below to $_ticket. 
 
 ## A2-Broken Authentication and Session Management
