@@ -15,7 +15,7 @@ Sign up some users to the event. Check from the Admin page. Then go to the Cance
 ### How to fix
 The “mysqli_real_escape_string” function can be used in “delete.php” on the $ticket variable, to prevent the SQL-injection (as used in “done.php” on other variables). But a simple input validation (fixed length + lowcase alfanum only) will also fix the problem in this case.
 ## A2-Broken Authentication and Session Management
-The cookie-session-id and the clear text admin credentials are sent over an unencrypted connection. You can see them with OWASP ZAP.<br>
+The cookie-session-id and the clear text admin credentials are sent over an unencrypted connection.<br>
 But also: Guessable fixed admin credentials (admin/password), which are stored in the source code (login.php) with no encryption.
 
 ### How to identify (broken session management)
