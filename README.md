@@ -6,7 +6,7 @@ The task was to create a web application that has at least five different flaws 
 So be aware, this is simple and bad code with many vulnerabilities!
 
 This project is done with PHP in a LAMP environment. 
-Here are the **installation instructions** (just an example, other kind of LAMP environment using Apache, PHP and MySQL will most likely work too);
+Here are the **installation instructions**;
 
 1.	Download and install VirtualBox on your personal computer (which can be Windows, OS X, Linux or Solaris); https://www.virtualbox.org/wiki/Downloads
 2.	Download the “64 bit PC netinst.iso” Debian image from here; https://www.debian.org/distrib/
