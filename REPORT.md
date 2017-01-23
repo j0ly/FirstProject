@@ -47,6 +47,12 @@ But you can also test with code like this, in any of the fields on the SignUp pa
 ```<body onload=alert('hello')>```
 
 ### How to fix
+In done.php there are lines like this;
+```
+$fname = $_POST["name"];
+$faddress = $_POST["address"];
+$creditcard = $_POST["creditcard"];
+```
 HTML codes should be escaped using the htmlspecialchars or htmlentities PHP-functions + the input validated as tightly as possible (length, allowed characters, format etc.).
 
 ## A6-Sensitive Data Exposure
