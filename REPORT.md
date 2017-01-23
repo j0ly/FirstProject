@@ -7,7 +7,7 @@ There are many problems with the code, but I will only mention the most relevant
 
 The OWASP vulnerabilities:
 
-## A1
+## A1-Injection
 
 ### How to identify 
 Sign up some users to the event. Check from the Admin page. Then go to the Cancel page and enter: ```' OR '1'='1```. All the sign-ups are now gone, as you can see from the Admin page!    
