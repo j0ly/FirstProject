@@ -67,7 +67,7 @@ Modify “yourserver” in this link to match your installation; http://yourserv
 ### How to fix
 Deny access to the config.ini file, in one way or another. 
 
-There is actually already a .htaccess in the admin folder that should do that, but Apache does not by default enable the use of .htaccess files. To enable, do this:
+There is already a .htaccess file in the admin folder that should do that, but Apache does not by default enable the use of .htaccess files. To enable, do this:
 
   Open /etc/apache2/apache2.conf in an editor, and find these lines;
   ```
