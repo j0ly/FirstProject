@@ -8,7 +8,7 @@ So be aware, this is simple and bad code with many vulnerabilities!
 This project is done with PHP in a LAMP environment. 
 Here are the **installation instructions**;
 
-1.	Download and install VirtualBox on your personal computer (which can be Windows, OS X, Linux or Solaris); https://www.virtualbox.org/wiki/Downloads
+1.	Download and install VirtualBox on your computer (which can be Windows, OS X, Linux or Solaris); https://www.virtualbox.org/wiki/Downloads
 2.	Download the “64 bit PC netinst.iso” Debian image from here; https://www.debian.org/distrib/
 3.	Start Virtualbox and select “Machine / New…” from the menu.
 4.	Give the new virtual machine a name and select “Linux” as Type, and “Debian (64-bit)” as Version. Continue and accept the default settings until finished.
