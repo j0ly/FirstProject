@@ -9,6 +9,8 @@ The OWASP vulnerabilities:
 
 ## A1-Injection
 
+The content of the database can be deleted using SQL injection.
+
 ### How to identify 
 Sign up some users to the event. Check from the Admin page. Then go to the Cancel page and enter: ```' OR '1'='1```. All the sign-ups are now gone, as you can see from the Admin page!    
 
