@@ -25,7 +25,7 @@ Debian installation:
 3.	Enter hostname, domain name, root password and your personal user credentials of your own choosing. 
 4.	Partition the disk using the “Guided – use entire disk” alternative. Continue with the default values and suggestions, until you receive the “Write the changes to disk?” prompt. Then choose “Yes”!
 5.	When configuring the package manager, choose the default values, and leave the proxy setting empty (unless you know it’s needed).
-6.	No need to participate in the package usage survey.
+6.	Choose whether you want to participate in the package usage survey or not.
 7.	Software to install: select “web server” and “standard system utilities” (nothing else is needed).
 8.	Install the GRUB boot loader on the master boot record, and choose “/dev/sda” in the next window.
 9.	Finish the installation. 
