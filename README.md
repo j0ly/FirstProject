@@ -60,6 +60,9 @@ Project installation:
 -----
 ### Links
 
+#### OWASP ZAP:
+* https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+
 #### Advanced Cookie Manager, for Firefox:
 * https://addons.mozilla.org/en-US/firefox/addon/cookie-manager/
 
