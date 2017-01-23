@@ -23,7 +23,7 @@ And rename the $ticket variable two lines below to $_ticket.
 The cookie-session-id is sent over an unencrypted connection.
 
 ### How to identify
-You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” Firefox add-on):
+You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” add-on to Firefox):
 
 1. Capture the cookie-session-id with OWASP ZAP. 
 2. Go to the Admin login-page with Firefox (but don’t log in, - if you are not asked for the credentials then close the browser and try again). 
