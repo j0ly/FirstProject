@@ -21,7 +21,7 @@ b) The cookie-session-id and the clear text admin credentials are sent over an u
 ### How to identify (broken session management)
 You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” Firefox add-on):
 
-1. Capture the session-id with OWASP ZAP. 
+1. Capture the cookie-session-id with OWASP ZAP. 
 2. Go to the Admin login-page with Firefox (but don’t log in, - if you are not asked for the credentials then close the browser and try again). 
 3. Open “Advanced Cookie Manager” and enter the cookie-session-id you saw with OWASP ZAP into the "Value" box, replacing the existing one (delete first, then paste). Save the change.
 4. Re-enter the Admin page (do not only reload), and you’re in without entering credentials!
