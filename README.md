@@ -59,6 +59,10 @@ Project installation:
 
 -----
 ### Links
+
+#### Advanced Cookie Manager for Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/cookie-manager/
+
 #### How to activate SSL:
 * https://debian-administration.org/article/349/Setting_up_an_SSL_server_with_Apache2
  
