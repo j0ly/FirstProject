@@ -20,7 +20,7 @@ Add this after line 12 in delete.php;
 And rename the $ticket variable two lines below to $_ticket. 
 
 ## A2-Broken Authentication and Session Management
-The cookie-session-id and the clear text admin credentials are sent over an unencrypted connection.<br>
+The cookie-session-id is sent over an unencrypted connection.
 
 ### How to identify
 You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” Firefox add-on):
