@@ -36,7 +36,7 @@ Note: You can use OWASP ZAP together with another browser to capture the cookie-
 Use SSL for the website (see the link in Readme for details)! 
 
 ## A3-Cross-Site Scripting (XSS)
-There is a Stored XSS vulnerability. The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
+Stored XSS vulnerability: The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
 ### How to identify
 Enter this code into the address field on the SignUp page;
 
