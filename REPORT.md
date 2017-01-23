@@ -30,7 +30,7 @@ You can get access to the Admin page using the stolen cookie-session-id like thi
 3. Open “Advanced Cookie Manager” and enter the cookie-session-id you saw with OWASP ZAP into the "Value" box, replacing the existing one (delete first, then paste). Save the change.
 4. Re-enter the Admin page (do not only reload), and you’re in without entering credentials!
 
-Note: You can use OWASP ZAP together with another browser, to capture the cookie-session-id when logging in.
+Note: You can use OWASP ZAP together with another browser to capture the cookie-session-id when logging in.
 
 ### How to fix
 Use SSL for the website (see the link in Readme for details)! 
