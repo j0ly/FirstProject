@@ -61,7 +61,7 @@ The database credentials are stored in an easy to guess plaintext config file, i
 ### How to identify
 Modify “yourserver” in this link to match your installation; http://yourserver/firstproject/admin/config.ini. Then open this link with your browser, and you should see the credentials.
 ### How to fix
-Deny access to the config.ini file, in one way or another. 
+Deny access to the config.ini file. 
 
 There is already a .htaccess file in the admin folder that should do that, but Apache does not by default enable the use of .htaccess files. To enable, do this:
 
