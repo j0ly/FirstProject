@@ -64,7 +64,7 @@ Project installation:
 ### OWASP ZAP
 Usage instructions:
 
-1. In OWASP ZAP, take note of the proxy port number, which can be seen from the "Tools / Options... / Local Proxy" menu.<br>
+1. In OWASP ZAP, take note of the proxy port number which can be seen from the "Tools / Options... / Local Proxy" menu.<br>
 2. In the browser:<br> 
   * Modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.<br>
   * **Don't use proxy for addresses starting with: https://***<br>
