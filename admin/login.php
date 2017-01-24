@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if($username == 'admin' && $password == 'password') {
             session_start();
             $_SESSION["authenticated"] = 'true';
-            header('Location: http://' . $_SERVER["HTTP_HOST"] .'/firstproject/admin/index.php');
+            header('Location: http://' . $_SERVER["HTTP_HOST"] . '/firstproject/admin/index.php');
         }
         else {
             header('Location: login.php');
