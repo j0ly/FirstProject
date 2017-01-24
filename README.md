@@ -58,7 +58,7 @@ Project installation:
 * Take note of the ticket-number if you want to test cancelling the sign-up.
 * On the Admin page you can get a list of the people who have signed-up.
   * The credentials are: **admin/password**
-  * Here you will also receive a certificate warning as the server is using a self-signed certificate for the https-pages. Continue and ignore the warning!
+  * Here you will also receive a certificate warning as the server is using a self-signed certificate for the https-pages. Ignore the warning and continue!
 
 -----
 ### OWASP ZAP
