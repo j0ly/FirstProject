@@ -4,7 +4,8 @@ This project is done with PHP in a LAMP environment.<br>
 See https://github.com/j0ly/firstproject/blob/master/README.md for installation instructions.
 
 There are many other problems with this code besides those which I have mentioned and provided a fix for here below. And regarding the suggested fixes, I know that there are many things that could be done to further improve the security. But I had to draw the line somewhere. The task was to have at least 5 OWASP Top Ten vulnerabilies, and to provide a fix for them, which I think I have done!
-(Also the admin password can bee seen using OWASP ZAP, but I'm ignoring that intentionally!)
+(For example, the admin password can also be seen using OWASP ZAP, but I'm ignoring that intentionally!)
+
 
 The OWASP vulnerabilities:
 
