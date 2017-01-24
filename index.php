@@ -11,7 +11,7 @@
         <a href="cancel.php">Cancel</a>
 
         <p></p>
-        <a href="admin">Admin</a>
+        <a href="admin/index.php">Admin</a>
     </body>
 </html>
 
