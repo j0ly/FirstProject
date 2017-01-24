@@ -23,7 +23,7 @@ Add this after line 12 in delete.php;
 
 ## A2-Broken Authentication and Session Management
 The cookie-session-id, which is used for authentication, is sent over an unencrypted connection.<br>
-(And yes, I know, also the admin password can bee seen, but try to ignore that now, please!)
+(And yes, I know, also the admin password can bee seen, but try to ignore that, please!)
 
 ### How to identify
 You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” add-on to Firefox):
