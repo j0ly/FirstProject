@@ -70,7 +70,7 @@ function clean($data) {
 ```
 
 ## A6-Sensitive Data Exposure
-Credit card numbers are sent without SSL in cleartext with POST.
+Credit card numbers are sent in cleartext with POST, over an unencrypted connection.
 
 ### How to identify
 Capture the (imaginary) credit card numbers using OWASP ZAP.
