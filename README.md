@@ -67,7 +67,7 @@ Usage instructions:
 2. In the browser:<br> 
   * Modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.<br>
   * **Don't use proxy for addresses starting with: https://***<br>
-Note that this will simulate the real man-in-the-middle situation, as the attacker would not be able to see what happens inside a SSL connection (unless the victim ignores the sertificate warning, of course). It would also simulate an unsecured WIFI eavesdropping situation.
+Note that this will simulate the real man-in-the-middle situation as the attacker would not be able to see what happens inside a SSL connection (unless the victim ignores the sertificate warning, of course). It would also simulate an unsecured WIFI eavesdropping situation.
   
 
 
