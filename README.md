@@ -38,6 +38,9 @@ Project installation:
 3.	Run the following commands inside the virtual machine:
   * ``` aptitude install mysql-server mysql-client ``` - enter a root password for MySQL!
   * ``` aptitude install php5 php5-mysql libapache2-mod-php5 ```
+  * ``` a2enmod ssl ```
+  * ``` a2ensite default-ssl ```
+  * ``` service apache2 reload ```
   * ``` aptitude install git ```
   * ``` cd /var/www/html/ ```
   * ``` git init ```
@@ -64,13 +67,6 @@ Usage instructions:
 2. Start the browser and modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.
 
 
-``` 
-a2enmod ssl
-a2ensite default-ssl
-service apache2 reload 
-mkdir /etc/apache2/ssl
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
-```
 -----
 ### Links
 
