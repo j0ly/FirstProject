@@ -63,6 +63,14 @@ Usage instructions:
 1. Start OWASP ZAP and check the proxy port from the "Tools / Options... / Local Proxy" menu.
 2. Start the browser and modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.
 
+
+``` 
+a2enmod ssl
+a2ensite default-ssl
+service apache2 reload 
+mkdir /etc/apache2/ssl
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
+```
 -----
 ### Links
 
