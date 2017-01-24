@@ -59,6 +59,7 @@ Project installation:
 -----
 ### OWASP ZAP
 Usage instructions:
+
 1. Start OWASP ZAP and check the proxy port from the "Tools / Options... / Local Proxy" menu.
 2. Start the browser and modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.
 
