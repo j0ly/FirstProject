@@ -12,7 +12,11 @@ The OWASP vulnerabilities:
 The content of the database can be deleted using SQL injection.
 
 ### How to identify 
-Sign up some users to the event. Check from the Admin page. Then go to the Cancel page and enter: ```' OR '1'='1```. All the sign-ups are now gone, as you can see from the Admin page!    
+Sign up some users to the event. Check from the Admin page. 
+
+Then go to the Cancel page and enter: ```' OR '1'='1```. 
+
+All the sign-ups are now gone, as you can see from the Admin page!    
 
 ### How to fix
 Add this after line 12 in delete.php;
