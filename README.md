@@ -55,7 +55,12 @@ Project installation:
 * Take note of the ticket-number if you want to test cancelling the sign-up.
 * On the Admin page you can get a list of the people who have signed-up.
   * The credentials are: **admin/password**
- 
+
+-----
+### OWASP ZAP
+Usage instructions:
+1. Start OWASP ZAP and check the proxy port from the "Tools / Options... / Local Proxy" menu.
+2. Start the browser and modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.
 
 -----
 ### Links
