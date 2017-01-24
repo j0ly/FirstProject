@@ -65,7 +65,8 @@ Usage instructions:
 
 1. Start OWASP ZAP and check the proxy port from the "Tools / Options... / Local Proxy" menu.
 2. Start the browser and modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.
-  * Don't use proxy for addresses starting with: https://*
+3. Don't use proxy for addresses starting with: https://*
+  * Note that this will simulate the real man-in-the-middle situation, as he would not be able to see what happens inside a SSL connection. OWASP ZAP on the other hand would see inside SSL as it functions as a proxy.
   
 
 
