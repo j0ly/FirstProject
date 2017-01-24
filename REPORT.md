@@ -81,8 +81,9 @@ Enable SSL (see the link in Readme for details)!
 ## A7-Missing Function Level Access Control
 The database credentials are stored in an easy to guess plaintext config file, inside the web-root, and is lacking access control.
 ### How to identify
-1. Modify “yourserver” in this link to match your installation; http://yourserver/firstproject/admin/config.ini. 
-2. Then open this link with your browser, and you should see the credentials.
+Modify “yourserver” in this link to match your installation; http://yourserver/firstproject/admin/config.ini. 
+Then open this link with your browser, and you should see the credentials.
+
 ### How to fix
 Deny access to the config.ini file. 
 
