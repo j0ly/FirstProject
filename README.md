@@ -68,7 +68,7 @@ Usage instructions:
 2. In the browser:<br> 
   * Modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.<br>
 
-Note that because OWASP ZAP works as a proxy you will see what happens inside the HTTPS connection! If somebody would, as an example, eavesdrop an unsecure WIFI connection, they would not see the contents of HTTPS traffic. 
+Note that because OWASP ZAP works as a proxy you will see what happens inside the HTTPS connection when you log in to the admin-page! If somebody would, as an example, eavesdrop an unsecure WIFI connection, they would not see the contents of HTTPS traffic. 
 
   
 
