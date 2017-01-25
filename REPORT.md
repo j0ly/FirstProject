@@ -81,7 +81,7 @@ Credit card numbers are sent in cleartext with POST, over an unencrypted connect
 Capture the (imaginary) credit card number with OWASP ZAP (see [README.md](README.md)).
 
 ### How to fix: 
-Enable SSL (see the link in Readme for details)! 
+Enable SSL for the whole server (see the A2-fix)! 
 
 ## A7-Missing Function Level Access Control
 The database credentials are stored in an easy to guess plaintext config file, inside the web-root, and is lacking access control.
