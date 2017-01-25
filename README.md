@@ -75,7 +75,7 @@ And use it:
 
  ![Zap2](https://github.com/j0ly/hello-world/blob/master/zap2.png)
 
-**Note:** Because OWASP ZAP works as a proxy you will see what happens inside the HTTPS connection when logging in to the admin-pages! But if somebody would (as an example) eavesdrop an unsecure WIFI connection, they would not see the contents of HTTPS traffic. 
+**Note:** Because OWASP ZAP works as a proxy you will see what happens inside the HTTPS connection when logging in to the admin-pages! But if somebody would (as an example) eavesdrop an unsecure WIFI connection, they would not see the contents of HTTPS traffic. So just ignore the https lines here!
 
 **A6:** After entering the requested information and pressing Submit on the SignUp page, you will see the (imaginary) credit card number here;
 
