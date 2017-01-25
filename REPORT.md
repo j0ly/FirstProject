@@ -36,6 +36,7 @@ You can get access to the Admin page using the stolen cookie-session-id like thi
 
 ### How to fix
 Enable SSL for the whole server like this;
+
 1. Open /etc/apache2/sites-available/000-default.conf with an editor.
 2. Add this line after the "DocumentRoot /var/www/html" line; ``` Redirect permanent / https://yourserver/ ``` (modify "yourserver" to match the IP of your server)
 3. Restart Apache, run; ``` apachectl restart ```
