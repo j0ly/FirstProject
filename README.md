@@ -62,35 +62,36 @@ Project installation:
 
 -----
 ### OWASP ZAP
+* https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+
 Prepare:
 
-1. In OWASP ZAP, take note of the proxy port number which can be seen from the "Tools / Options... / Local Proxy" menu.<br>
-2. In the browser:<br> 
-  * Modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.<br>
+1. In OWASP ZAP, take note of the proxy port number which can be seen from the "Tools / Options... / Local Proxy" menu.
+2. In the browser, modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.
 
 And use it:
 
-**A2:** After logging in to the admin-pages, you will see the cookie-session-id here;
+**A2:** After logging in to the Admin-pages, you will see the cookie-session-id here;
 
  ![Zap2](https://github.com/j0ly/hello-world/blob/master/zap2.png)
 
-**Note:** Because OWASP ZAP works as a proxy you will see what happens inside the HTTPS connection when logging in to the admin-pages! If somebody would (as an example) eavesdrop an unsecure WIFI connection, they would not see the contents of HTTPS traffic. 
+**Note:** Because OWASP ZAP works as a proxy you will see what happens inside the HTTPS connection when logging in to the admin-pages! But if somebody would (as an example) eavesdrop an unsecure WIFI connection, they would not see the contents of HTTPS traffic. 
 
-**A6:** After entering a sign-up, you will see the (imaginary) credit card number here;
+**A6:** After entering the requested information and pressing Submit on the SignUp page, you will see the (imaginary) credit card number here;
 
  ![Zap1](https://github.com/j0ly/hello-world/blob/master/zap1.png)
 
 -----
-### Links
 
-#### OWASP ZAP:
-* https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 
 #### Advanced Cookie Manager, for Firefox:
 * https://addons.mozilla.org/en-US/firefox/addon/cookie-manager/
 
  
 <br>
+-----
+
+### Other links:
 
 #### For general instructions on how to improve software security, see:
 * https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
