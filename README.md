@@ -58,7 +58,7 @@ Project installation:
 * Take note of the ticket-number if you want to test cancelling the sign-up.
 * On the Admin page you can get a list of the people who have signed-up.
   * The credentials are: **admin/password**
-  * Here you will also receive a certificate warning as the server is using a self-signed certificate for the https-pages. Ignore the warning and continue!
+  * Here you will also receive a certificate warning as the server is using a self-signed certificate for the https-pages. Ignore the warning and continue (in Firefox; Advanced/Add Execption)!
 
 -----
 ### OWASP ZAP
@@ -86,7 +86,6 @@ After entering the requested information and pressing Submit on the SignUp page,
  ![Zap1](https://github.com/j0ly/hello-world/blob/master/zap1.png)
 
 -----
-
 
 ### Advanced Cookie Manager, for Firefox:
 * https://addons.mozilla.org/en-US/firefox/addon/cookie-manager/
