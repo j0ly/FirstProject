@@ -28,10 +28,10 @@ The cookie-session-id, which is used for authentication, is sent over an unencry
 ### How to identify
 You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” add-on to Firefox):
 
-1. Capture the cookie-session-id with OWASP ZAP after you logged in to the Admin pages (see [README.md](README.md#a2)). 
+1. Capture the cookie-session-id with OWASP ZAP after you logged in to the Admin pages (see [README.md](README.md)). 
   * If you use Firefox for this, then close and restart the browser before next step.
 2. Go to the Admin login-page again with Firefox, but don’t log in! 
-3. Open “Advanced Cookie Manager” and enter the cookie-session-id you captured with OWASP ZAP into the "Value" box (see [README.md](README.md#advanced-cookie-manager-for-firefox)), replacing the existing one (delete first, then paste). Save the change.
+3. Open “Advanced Cookie Manager” and enter the cookie-session-id you captured with OWASP ZAP into the "Value" box (see [README.md](README.md)), replacing the existing one (delete first, then paste). Save the change.
 4. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
 
 ### How to fix
@@ -73,7 +73,7 @@ function clean($data) {
 Credit card numbers are sent in cleartext with POST, over an unencrypted connection.
 
 ### How to identify
-Capture the (imaginary) credit card number with OWASP ZAP (see [README.md](README.md#a6)).
+Capture the (imaginary) credit card number with OWASP ZAP (see [README.md](README.md)).
 
 ### How to fix: 
 Enable SSL (see the link in Readme for details)! 
