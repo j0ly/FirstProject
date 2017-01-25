@@ -78,7 +78,9 @@ function clean($data) {
 Credit card numbers are sent in cleartext with POST, over an unencrypted connection.
 
 ### How to identify
-Capture the (imaginary) credit card number with OWASP ZAP (see [README.md](README.md)).
+
+1. Go to the SignUp page and fill in the requested information, including a (imaginary) credit card number.
+2. Press Submit, and capture the credit card number with OWASP ZAP (see [README.md](README.md)).
 
 ### How to fix: 
 Enable SSL for the whole server (see the A2-fix)! 
