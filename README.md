@@ -88,31 +88,10 @@ After entering the requested information and pressing Submit on the SignUp page,
 -----
 
 
-#### Advanced Cookie Manager, for Firefox:
+### Advanced Cookie Manager, for Firefox:
 * https://addons.mozilla.org/en-US/firefox/addon/cookie-manager/
 
  
-<br>
------
-
-### Other links:
-
-#### For general instructions on how to improve software security, see:
-* https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf
-
-#### Regarding credit cards, there are many requirements:
-* https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard
-* https://www.pcisecuritystandards.org/pci_security/how
-
-#### OWASP PHP Security Cheat Sheet: 
-* https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet
-
-#### PSP security manual:
-* http://php.net/manual/en/security.php
-
-#### PHP security considerations in shared hosting environment:
-* http://www.hostreview.com/blog/Technical_Support/articles/PHPSecurityinSharedEnvironment.html
-
 
 
 
