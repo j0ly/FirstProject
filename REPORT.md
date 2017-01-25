@@ -73,7 +73,7 @@ function clean($data) {
 Credit card numbers are sent in cleartext with POST, over an unencrypted connection.
 
 ### How to identify
-Capture the (imaginary) credit card numbers using OWASP ZAP (see [README.md](README.md#a6)).
+Capture the (imaginary) credit card number with OWASP ZAP (see [README.md](README.md#a6)).
 
 ### How to fix: 
 Enable SSL (see the link in Readme for details)! 
