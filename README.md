@@ -67,8 +67,9 @@ Usage instructions:
 1. In OWASP ZAP, take note of the proxy port number which can be seen from the "Tools / Options... / Local Proxy" menu.<br>
 2. In the browser:<br> 
   * Modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.<br>
-  * **Don't use proxy for addresses starting with: https://***<br>
-Note that this will simulate the real man-in-the-middle situation as the attacker would not be able to see what happens inside a SSL connection (unless the victim ignores the sertificate warning, of course). It would also simulate an unsecured WIFI eavesdropping situation.
+
+Note that because OWASP ZAP works as a proxy you will see what happens inside the HTTPS connection! If somebody would, as an example, eavesdrop an unsecure WIFI connection, they would not see the contents of HTTPS traffic. 
+
   
 
 
