@@ -37,10 +37,10 @@ You can get access to the Admin page using the stolen cookie-session-id like thi
 ### How to fix
 Enable SSL for the whole server like this;
 
-1. Open /etc/apache2/sites-available/000-default.conf with an editor.
-2. Add this line after the "DocumentRoot" line (modify "yourserver" to match the IP of your server); 
+1. In /etc/apache2/sites-available/000-default.conf, add this line after the "DocumentRoot" line (modify "yourserver" to match the IP of your server); 
   * ``` Redirect permanent / https://yourserver/ ``` 
-3. Restart Apache with this command; ``` apachectl restart ```
+2. Restart Apache with this command; ``` apachectl restart ```
+3. In admin/login.php, change "http" on line 15 to "https".
 
 ## A3-Cross-Site Scripting (XSS)
 The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
