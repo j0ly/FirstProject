@@ -90,7 +90,7 @@ After entering the requested information and pressing Submit on the SignUp page,
 ### Advanced Cookie Manager, for Firefox:
 * https://addons.mozilla.org/en-US/firefox/addon/cookie-manager/
 
-![Zap1](https://github.com/j0ly/hello-world/blob/master/acm.png)
+![acm](https://github.com/j0ly/hello-world/blob/master/acm.png)
 
 
 
