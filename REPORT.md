@@ -39,10 +39,8 @@ Enable SSL for the whole server like this;
 
 1. Open /etc/apache2/sites-available/000-default.conf with an editor.
 2. Add this line after the "DocumentRoot /var/www/html" line (modify "yourserver" to match the IP of your server); 
-
-``` Redirect permanent / https://yourserver/ ``` 
-
-3. Restart Apache, run; ``` apachectl restart ```
+  * ``` Redirect permanent / https://yourserver/ ``` 
+3. Restart Apache with this command; ``` apachectl restart ```
 
 ## A3-Cross-Site Scripting (XSS)
 The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
