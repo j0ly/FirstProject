@@ -34,8 +34,6 @@ You can get access to the Admin page using the stolen cookie-session-id like thi
 3. Open “Advanced Cookie Manager” and enter the cookie-session-id you captured with OWASP ZAP into the "Value" box, replacing the existing one (delete first, then paste). Save the change.
 4. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
 
-Note: You can use OWASP ZAP together with another browser to capture the cookie-session-id when logging in.
-
 ### How to fix
 Enable SSL for the website (see the link in Readme for details)! 
 
@@ -75,7 +73,7 @@ function clean($data) {
 Credit card numbers are sent in cleartext with POST, over an unencrypted connection.
 
 ### How to identify
-Capture the (imaginary) credit card numbers using OWASP ZAP.
+Capture the (imaginary) credit card numbers using OWASP ZAP (see [README.md](README.md#a6)).
 
 ### How to fix: 
 Enable SSL (see the link in Readme for details)! 
