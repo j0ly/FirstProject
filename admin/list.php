@@ -1,4 +1,5 @@
-<?php header('X-Frame-Options: DENY'); 
+<?php 
+header('X-Frame-Options: DENY'); 
 require_once('auth.php');
 if($_SERVER["HTTPS"] != "on")
 {
