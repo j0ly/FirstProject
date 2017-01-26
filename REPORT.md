@@ -38,8 +38,9 @@ You can get access to the Admin pages using the stolen cookie-session-id like th
 
 1. Log in to the Admin pages, look who have signed up, and click the "home" link.
 2. You are now back at the starting page, which doesn't use SSL.
-3. But with OWASP ZAP you can now see that the session-cookie is still in use (see [README.md](README.md)), which is bad if someone would have the possibility to eavesdrop. Copy the session-id!
-  * If you were using the Firefox browser for this, restart it before the next step...
+3. But with OWASP ZAP you can now see that the session-cookie is still in use (see [README.md](README.md)). This is bad if someone would have the possibility to eavesdrop... 
+4. Copy the cookie-session-id!
+  * And if you were using the Firefox browser for this, restart it before the next step...
 4. Go to the Admin login-page with Firefox, but don’t log in! 
 5. Open “Advanced Cookie Manager” and enter the cookie-session-id you captured with OWASP ZAP into the "Value" box (see [README.md](README.md)), replacing the existing one (delete first, then paste). Save the change.
 6. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
