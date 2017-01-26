@@ -5,14 +5,6 @@ Cyber Security Base - Course Project I
 The task was to create a web application that has at least five different flaws from the OWASP top ten list.
 So be aware, this is simple and bad code with many vulnerabilities!
 
-Whats required:
-
-1. Windows, OS X or Linux as the host
-2. OWASP ZAP
-3. Firefox and the Advanced Cookie Manager add-on
-4. VirtualBox
-5. Debian as a virtual machine
-
 This project is done with PHP in a LAMP environment. 
 Here are the **installation instructions**;
 
