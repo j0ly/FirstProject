@@ -37,7 +37,7 @@ You can get access to the Admin page using the stolen cookie-session-id like thi
 6. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
 
 ### How to fix
-The easy solution in this case, enable SSL for the whole server like this;
+The easy solution in this case, enable SSL for the whole server;
 
 1. In /etc/apache2/sites-available/000-default.conf, add this line after the "DocumentRoot" line (modify "yourserver" to match the IP of your server); 
   * ``` Redirect permanent / https://yourserver/ ``` 
