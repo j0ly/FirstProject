@@ -28,11 +28,13 @@ The cookie-session-id, which is used for authentication, is sent over an unencry
 ### How to identify
 You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” add-on to Firefox):
 
-1. Log in to the Admin pages and capture the cookie-session-id with OWASP ZAP (see [README.md](README.md)). 
+1. Log in to the Admin pages, look who have signed-up, and click the "home" link.
+2. You are now back at the starting page, which doesn't use SSL.
+3. But with OWASP ZAP you can see that the session-cookie is still in use, and the session-id thus visible if someone would have the possibility to eavesdrop. Copy the session-id (see [README.md](README.md))!
   * If you were using the Firefox browser, restart it before the next step...
-2. Go to the Admin login-page with Firefox, but don’t log in! 
-3. Open “Advanced Cookie Manager” and enter the cookie-session-id you captured with OWASP ZAP into the "Value" box (see [README.md](README.md)), replacing the existing one (delete first, then paste). Save the change.
-4. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
+4. Go to the Admin login-page with Firefox, but don’t log in! 
+5. Open “Advanced Cookie Manager” and enter the cookie-session-id you captured with OWASP ZAP into the "Value" box (see [README.md](README.md)), replacing the existing one (delete first, then paste). Save the change.
+6. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
 
 ### How to fix
 Enable SSL for the whole server like this;
@@ -40,7 +42,6 @@ Enable SSL for the whole server like this;
 1. In /etc/apache2/sites-available/000-default.conf, add this line after the "DocumentRoot" line (modify "yourserver" to match the IP of your server); 
   * ``` Redirect permanent / https://yourserver/ ``` 
 2. Restart Apache with this command; ``` apachectl restart ```
-3. In admin/login.php, change the "http" on line 15 to "https".
 
 ## A3-Cross-Site Scripting (XSS)
 The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
