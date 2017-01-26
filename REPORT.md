@@ -42,7 +42,7 @@ You can get access to the Admin pages using the stolen cookie-session-id like th
 4. Copy the cookie-session-id!
   * And if you were using the Firefox browser for this, restart it before the next step...
 4. Go to the Admin login-page with Firefox, but don’t log in! 
-5. Open “Advanced Cookie Manager” and enter the cookie-session-id you captured with OWASP ZAP into the "Value" box (see [README.md](README.md)), replacing the existing one (delete first, then paste). Save the change.
+5. Open “Advanced Cookie Manager” and enter the cookie-session-id into the "Value" box (see [README.md](README.md)), replacing the existing one (delete first, then paste). Save the change.
 6. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
 
 ### How to fix
