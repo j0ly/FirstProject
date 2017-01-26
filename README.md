@@ -6,6 +6,7 @@ The task was to create a web application that has at least five different flaws 
 So be aware, this is simple and bad code with many vulnerabilities!
 
 Whats required:
+
 1. Windows, OS X or Linux as the host
 2. OWASP ZAP
 3. Advanced Cookie Manager, an add-on for Firefox
