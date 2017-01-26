@@ -34,7 +34,7 @@ Add this after line 12 in delete.php;
 The cookie-session-id, which is used for authentication, is sent over an unencrypted connection.<br>
 
 ### How to identify
-You can get access to the Admin page using the stolen cookie-session-id like this (but before you begin, install the “Advanced Cookie Manager” add-on to Firefox):
+You can get access to the Admin page using the stolen cookie-session-id like this:
 
 1. Log in to the Admin pages, look who have signed-up, and click the "home" link.
 2. You are now back at the starting page, which doesn't use SSL.
