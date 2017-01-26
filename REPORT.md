@@ -1,6 +1,14 @@
 # The Report
 
 This project is done with PHP in a LAMP environment.<br> 
+Whats required:
+
+1. Windows, OS X or Linux as the host
+2. OWASP ZAP
+3. Firefox and the Advanced Cookie Manager add-on
+4. VirtualBox
+5. Debian as a virtual machine
+
 See https://github.com/j0ly/firstproject/blob/master/README.md for installation instructions.
 
 There are more problems with this code besides those which I have mentioned and provided a fix for here below. And regarding the suggested fixes, I know that there are many things that could be done to further improve the security. But I had to draw the line somewhere. The task was to have at least 5 OWASP Top Ten vulnerabilies, and to provide a fix for them, which I think I have done.
