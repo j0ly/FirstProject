@@ -1,7 +1,7 @@
 # The Report
 
 This project is done with PHP in a LAMP environment.<br> 
-Whats required:
+The requirements:
 
 1. Windows, OS X or Linux as the host
 2. OWASP ZAP
