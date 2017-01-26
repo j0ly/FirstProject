@@ -5,7 +5,7 @@ The requirements:
 
 1. Windows, OS X or Linux as the host
 2. OWASP ZAP
-3. Firefox and the Advanced Cookie Manager add-on
+3. Firefox with the Advanced Cookie Manager add-on
 4. VirtualBox
 5. Debian as a virtual machine
 
