@@ -9,10 +9,9 @@ Whats required:
 
 1. Windows, OS X or Linux as the host
 2. OWASP ZAP
-3. Advanced Cookie Manager, an add-on for Firefox
-4. Firefox
-5. VirtualBox
-6. Debian as a virtual machine
+3. Firefox and the Advanced Cookie Manager add-on
+4. VirtualBox
+5. Debian as a virtual machine
 
 This project is done with PHP in a LAMP environment. 
 Here are the **installation instructions**;
