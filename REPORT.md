@@ -38,7 +38,7 @@ You can get access to the Admin pages using the stolen cookie-session-id like th
 
 1. Log in to the Admin pages, look who have signed up, and click the "home" link.
 2. You are now back at the starting page, which doesn't use SSL.
-3. But with OWASP ZAP you can now see that the session-cookie is still in use (see [README.md](README.md)). This is bad if someone would have the possibility to eavesdrop... 
+3. But with OWASP ZAP you can now see that the session-cookie is still in use (see [README.md](README.md)). This is bad if someone would have the possibility to eavesdrop.
 4. Copy the cookie-session-id!
   * And if you were using the Firefox browser for this, restart it before the next step...
 4. Go to the Admin login-page with Firefox, but don’t log in! 
