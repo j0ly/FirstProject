@@ -73,11 +73,10 @@ And use it:
 
 ### A2
 
-After logging in to the Admin-pages, you will see the cookie-session-id here;
+Log in to the Admin-pages, look who have signed up, click the "home" link. You are now back at the starting page, which don't use SSL. But as you can see with OWASP ZAP, the session-cookie is still in use;
 
 ![Zap2](https://github.com/j0ly/hello-world/blob/master/zap2.png)
 
-**Note:** Because OWASP ZAP works as a proxy you will see what happens inside the HTTPS connection when logging in to the admin-pages! But if somebody would (as an example) eavesdrop an unsecure WIFI connection, they would not see the contents of HTTPS traffic. So just ignore the HTTPS lines here!
 
 ### A6
 
