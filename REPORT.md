@@ -37,7 +37,7 @@ You can get access to the Admin page using the stolen cookie-session-id like thi
 6. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
 
 ### How to fix
-The easy solution in this case, enable SSL for the whole server;
+The easy solution in this case, force HTTPS for the whole server;
 
 1. In /etc/apache2/sites-available/000-default.conf, add this line after the "DocumentRoot" line (modify "yourserver" to match the IP of your server); 
   * ``` Redirect permanent / https://yourserver/ ``` 
@@ -84,7 +84,7 @@ Credit card numbers are sent in cleartext with POST, over an unencrypted connect
 2. Press Submit, and capture the credit card number with OWASP ZAP (see [README.md](README.md)).
 
 ### How to fix: 
-Enable SSL for the whole server (see the A2-fix)! 
+Force HTTPS for the whole server (see the A2-fix)! 
 
 ## A7-Missing Function Level Access Control
 The database credentials are stored in an easy to guess plaintext config file, inside the web-root, and is lacking access control.
