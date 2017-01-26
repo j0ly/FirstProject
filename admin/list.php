@@ -15,7 +15,7 @@ if($_SERVER["HTTPS"] != "on")
     <body>
 
 <?php
-echo '<p><a href="http://' . $_SERVER["HTTP_HOST"] .'/firstproject/">home</a></p>';
+echo '<p><a href="http://' . $_SERVER["HTTP_HOST"] .'/firstproject/index.php">home</a></p>';
 	    
 include('connect.php');
 
