@@ -36,7 +36,7 @@ The cookie-session-id, which is used for authentication, is sent over an unencry
 ### How to identify
 You can get access to the Admin pages using the stolen cookie-session-id like this:
 
-1. Log in to the Admin pages, look who have signed-up, and click the "home" link.
+1. Log in to the Admin pages, look who have signed up, and click the "home" link.
 2. You are now back at the starting page, which doesn't use SSL.
 3. But with OWASP ZAP you can see that the session-cookie is still in use, and the session-id thus visible if someone would have the possibility to eavesdrop. Copy the session-id (see [README.md](README.md))!
   * If you were using the Firefox browser for this, restart it before the next step...
