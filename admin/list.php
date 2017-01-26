@@ -9,7 +9,7 @@ if($_SERVER["HTTPS"] != "on")
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Thank you!</title>
+        <title>The Attenders</title>
     </head>
     <body>
 
