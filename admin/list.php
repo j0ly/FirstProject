@@ -1,4 +1,11 @@
-<?php header('X-Frame-Options: DENY'); ?>
+<?php header('X-Frame-Options: DENY'); 
+require_once('auth.php');
+if($_SERVER["HTTPS"] != "on")
+{
+    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +14,8 @@
     <body>
 
 <?php
-require_once('auth.php');
+echo '<p><a href="http://' . $_SERVER["HTTP_HOST"] .'/firstproject/">home</a></p>';
+	    
 include('connect.php');
 
 $sql = "SELECT name, address, creditcard, ticket FROM Attenders";
