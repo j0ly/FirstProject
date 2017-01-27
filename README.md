@@ -63,7 +63,6 @@ Project installation:
   * Here you will also receive a certificate warning as the server is using a self-signed certificate for the https-pages. Ignore the warning and continue (in Firefox; Advanced/Add Execption)!
 
 -----
-Read [REPORT.md](REPORT.md) first: 
 
 ### OWASP ZAP
 * https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
@@ -73,7 +72,9 @@ Prepare:
 1. In OWASP ZAP, take note of the proxy port number which can be seen from the "Tools / Options... / Local Proxy" menu.
 2. In the browser, modify the proxy settings to match that port. The proxy server address should be 127.0.0.1.
 
-And use it:
+And use it (but read the [REPORT.md](REPORT.md) first):
+
+
 
 ### A2
 
