@@ -62,11 +62,13 @@ The XSS code can be entered on the SignUp page, and executed on the Admin page w
 
 2. Go to the Admin pages and take a look at the sign-ups. The session-id should now be written to the Apache logs of “yourserver” (cat /var/log/apache2/access.log). 
 
-But you can also test with code like this, in any of the fields on the SignUp page; 
+or 
 
-```<body onload=alert('hello')>```
+1. But you can also test with code like this, in any of the fields on the SignUp page; 
 
-You will then receive the "hello" greeting, when looking at the sign-ups.
+   ```<body onload=alert('hello')>```
+
+2. You will then receive the "hello" greeting, when looking at the sign-ups.
 
 ### How to fix
 In done.php you can find these lines;
