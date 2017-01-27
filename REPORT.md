@@ -36,7 +36,7 @@ The cookie-session-id, which is used for authentication, is sent over an unencry
 ### How to identify
 You can get access to the Admin pages using an eavesdropped cookie-session-id like this:
 
-1. Start OWASP ZAP and configure the proxy settings in the browser (see [README.md](README.md)).
+1. Start OWASP ZAP and configure the proxy settings in the browser (see [README.md](README.md#owasp-zap)).
 2. Go to the Admin pages, look who have signed up, and then click the "home" link.
 3. You're now back at the starting page, which doesn't use SSL.
 4. But with OWASP ZAP you can see that the session-cookie is still in use (see [README.md](README.md)). If someone would have the possibility to eavesdrop, they could now steal the cookie-session-id!
