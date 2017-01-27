@@ -63,6 +63,8 @@ Project installation:
   * Here you will also receive a certificate warning as the server is using a self-signed certificate for the https-pages. Ignore the warning and continue (in Firefox; Advanced/Add Execption)!
 
 -----
+See [REPORT.md](REPORT.md): 
+
 ### OWASP ZAP
 * https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 
