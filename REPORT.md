@@ -97,7 +97,8 @@ Credit card numbers are sent in cleartext with POST, over an unencrypted connect
 ### How to identify
 
 1. Go to the SignUp page and fill in the requested information, including a (imaginary) credit card number.
-2. Press Submit, and capture the credit card number with OWASP ZAP (see [README.md](README.md)).
+2. Press Submit
+3. With OWASP ZAP you can now see that the credit card number was sent over an unencrypted http connection (see [README.md](README.md)).
 
 ### How to fix: 
 Force HTTPS for the whole server (see the A2-fix)! 
