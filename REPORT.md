@@ -41,10 +41,10 @@ You can get access to the Admin pages using an eavesdropped cookie-session-id li
 3. But with OWASP ZAP you can see that the session-cookie is still in use (see [README.md](README.md)). If someone would have the possibility to eavesdrop, they could now steal the cookie-session-id!
 4. Copy the cookie-session-id to simulate this situation!
   * And if you were using the Firefox browser for this, restart it before the next step...
-4. Go to the Admin login-page with Firefox, but don’t log in! 
-5. Open “Advanced Cookie Manager” and paste the cookie-session-id into the "Value" box (see [README.md](README.md)). 
+5. Go to the Admin login-page with Firefox, but don’t log in! 
+6. Open “Advanced Cookie Manager” and paste the cookie-session-id into the "Value" box (see [README.md](README.md)). 
   * Note: You have to  delete the old one first, to be able to save the change.
-6. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
+7. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
 
 ### How to fix
 Force HTTPS for the whole server;
