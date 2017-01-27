@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Event X</title>
+        <title>Event-X</title>
     </head>
     <body>
 
-        <h1>Event X</h1>
+        <h1>Event-X</h1>
         <a href="form.php">SignUp</a><br>
         <a href="cancel.php">Cancel</a>
 
