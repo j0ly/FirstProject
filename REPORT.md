@@ -54,6 +54,7 @@ Force HTTPS for the whole server;
 1. In /etc/apache2/sites-available/000-default.conf, add this line after the "DocumentRoot" line (modify "yourserver" to match the IP of your server); 
   * ``` Redirect permanent / https://yourserver/ ``` 
 2. Restart Apache with this command; ``` apachectl restart ```
+3. Also change "http:" to "https:" in admin/list.php line 18.
 
 ## A3-Cross-Site Scripting (XSS)
 The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
