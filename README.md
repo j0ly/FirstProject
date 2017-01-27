@@ -75,7 +75,7 @@ And use it:
 
 ### A2
 
-Log in to the Admin-pages, look who have signed up, and click the "home" link. You are now back at the starting page, which don't use SSL. But as you can see with OWASP ZAP, the session-cookie is still in use;
+Log in to the Admin-pages, look who have signed up, and click the "home" link. You're now back at the starting page, which don't use SSL. But as you can see with OWASP ZAP, the session-cookie is still in use;
 
 ![Zap2](https://github.com/j0ly/hello-world/blob/master/zap2.png)
 
