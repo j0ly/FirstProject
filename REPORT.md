@@ -46,7 +46,7 @@ You can get access to the Admin pages using an eavesdropped cookie-session-id li
 7. Open “Advanced Cookie Manager” and paste the cookie-session-id into the "Value" box (see [README.md](README.md#advanced-cookie-manager-for-firefox)). 
   * Note: You have to  delete the old one first, otherwise you will not be able to save the change.
   * Close the Advanced Cookie Manger when finished.
-8. Open the Event-X start page, click the "Admin" link, and you’re in without entering credentials!
+8. Go back to the Event-X start page and click the "Admin" link, - now you’re in without entering credentials!
 
 ### How to fix
 Force HTTPS for the whole server;
