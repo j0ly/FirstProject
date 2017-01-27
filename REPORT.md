@@ -98,9 +98,10 @@ Credit card numbers are sent in cleartext with POST, over an unencrypted connect
 
 ### How to identify
 
-1. Go to the SignUp page and fill in the requested information, including a (imaginary) credit card number.
-2. Press Submit
-3. With OWASP ZAP you can now see that the credit card number was sent over an unencrypted http connection (see [README.md](README.md#owasp-zap)).
+1. Start OWASP ZAP and configure the proxy settings in the browser (see README.md).
+2. Go to the SignUp page and fill in the requested information, including a (imaginary) credit card number.
+3. Press Submit
+4. With OWASP ZAP you can now see that the credit card number was sent over an unencrypted http connection (see [README.md](README.md#owasp-zap)).
 
 ### How to fix: 
 Force HTTPS for the whole server (see the A2-fix)! 
