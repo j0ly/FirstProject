@@ -62,8 +62,10 @@ Project installation:
   * The credentials are: **admin/password**
   * Here you will also receive a certificate warning as the server is using a self-signed certificate for the https-pages. Ignore the warning and continue (in Firefox; Advanced/Add Execption)!
 
+
+Now read the [REPORT.md](REPORT.md)!
+
 -----
-Read the [REPORT.md](REPORT.md) first!
 
 ### OWASP ZAP
 * https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
