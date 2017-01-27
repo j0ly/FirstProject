@@ -26,7 +26,7 @@ The content of the database can be deleted using SQL injection.
 3. All the sign-ups are now gone, as you can see from the Admin page!    
 
 ### How to fix
-Add this after line 12 in delete.php;
+Add this after line 14 in delete.php;
 
 ```$ticket = mysqli_real_escape_string($conn, $ticket);```
 
