@@ -49,6 +49,8 @@ You can get access to the Admin pages using an eavesdropped cookie-session-id li
 8. Go back to the Event-X start page and click the "Admin" link, - now you’re in without entering credentials!
 
 ### How to fix
+(Note: Do the A6 before applying this fix!)
+
 Force HTTPS for the whole server;
 
 1. In /etc/apache2/sites-available/000-default.conf, add this line after the "DocumentRoot" line (modify "yourserver" to match the IP of your server); 
