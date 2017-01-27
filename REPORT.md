@@ -65,11 +65,11 @@ The XSS code can be entered on the SignUp page, and executed on the Admin page w
 
 or 
 
-1. But you can also test with code like this, in any of the fields on the SignUp page; 
+1. Enter this code to any of the fields on the SignUp page; 
 
    ```<body onload=alert('hello')>```
 
-2. You will then receive the "hello" greeting, when looking at the sign-ups.
+2. You will then receive a "hello" greeting, when looking at the sign-ups.
 
 ### How to fix
 In done.php you can find these lines;
