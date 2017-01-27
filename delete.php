@@ -7,7 +7,7 @@
     <body>
 
 <?php
-echo '<p><a href="http://' . $_SERVER["HTTP_HOST"] .'/firstproject/index.php">home</a></p>';        
+echo '<p><a href="index.php">home</a></p>';        
         
 include('admin/connect.php');
 
