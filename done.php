@@ -35,10 +35,10 @@ $sql = "INSERT INTO Attenders (name, address, creditcard, ticket) VALUES ('$_fna
 
 if ($conn->query($sql) === TRUE) {
     echo "<h1>Thank you!</h1>";
-    echo $fname . "<br>";
-    echo $faddress . "<br>";
+    echo htmlspecialchars($fname) . "<br>";
+    echo htmlspecialchars($faddress) . "<br>";
     echo "<h1>You have been signed up to the event!</h1>";
-    echo "Here is your Ticket-number: <br><br>" . $ticket . "<br>";
+    echo "Here is your Ticket-number: <br><br>" . htmlspecialchars($ticket) . "<br>";
 
 
 } else {
