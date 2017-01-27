@@ -3,8 +3,8 @@ header('X-Frame-Options: DENY');
 if(empty($_POST["name"]) || empty($_POST["address"]) || empty($_POST["creditcard"])) {
     header('Location: form.php');
 }
-// We have to only pretend that we are also performing a check to see whether the credit card is valid!
-// http://stackoverflow.com/questions/174730/what-is-the-best-way-to-validate-a-credit-card-in-php
+// Here we only pretend that we are also performing a check to see whether the credit card is valid!
+
 
 ?>
 
@@ -16,6 +16,8 @@ if(empty($_POST["name"]) || empty($_POST["address"]) || empty($_POST["creditcard
     <body>
 
 <?php
+echo '<p><a href="http://' . $_SERVER["HTTP_HOST"] .'/firstproject/index.php">home</a></p>';
+        
 include('admin/connect.php');
 
 $fname = $_POST["name"];
