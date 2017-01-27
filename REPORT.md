@@ -39,11 +39,11 @@ You can get access to the Admin pages using an eavesdropped cookie-session-id li
 1. Start OWASP ZAP and configure the proxy settings in the browser (see [README.md](README.md#owasp-zap)).
 2. Go to the Admin pages, look who have signed up, and then click the "home" link.
 3. You're now back at the starting page, which doesn't use SSL.
-4. But with OWASP ZAP you can see that the session-cookie is still in use (see [README.md](README.md)). If someone would have the possibility to eavesdrop, they could now steal the cookie-session-id!
+4. But with OWASP ZAP you can see that the session-cookie is still in use (see [README.md](README.md#owasp-zap)). If someone would have the possibility to eavesdrop, they could now steal the cookie-session-id!
 5. Copy the cookie-session-id to simulate this situation!
   * And if you were using the Firefox browser for this, restart it before the next step...
 6. Go to the Admin login-page with Firefox, but don’t log in! 
-7. Open “Advanced Cookie Manager” and paste the cookie-session-id into the "Value" box (see [README.md](README.md)). 
+7. Open “Advanced Cookie Manager” and paste the cookie-session-id into the "Value" box (see [README.md](README.md#owasp-zap)). 
   * Note: You have to  delete the old one first, otherwise you will not be able to save the change.
 8. Open the Event X start page, click the "Admin" link, and you’re in without entering credentials!
 
@@ -100,7 +100,7 @@ Credit card numbers are sent in cleartext with POST, over an unencrypted connect
 
 1. Go to the SignUp page and fill in the requested information, including a (imaginary) credit card number.
 2. Press Submit
-3. With OWASP ZAP you can now see that the credit card number was sent over an unencrypted http connection (see [README.md](README.md)).
+3. With OWASP ZAP you can now see that the credit card number was sent over an unencrypted http connection (see [README.md](README.md#owasp-zap)).
 
 ### How to fix: 
 Force HTTPS for the whole server (see the A2-fix)! 
