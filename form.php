@@ -5,7 +5,8 @@
         <title>Sign up form</title>
     </head>
     <body>
-
+        Enter a value into every field!
+        
         <h1>Sign up to the event using this form</h1>
 
         <form action="done.php" method="POST">
